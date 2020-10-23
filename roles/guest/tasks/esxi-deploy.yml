@@ -6,6 +6,7 @@
     password: "{{ vsphere_password }}"
     validate_certs: no
     datacenter: "{{ esxi_datacenter }}"
+    cluster: "{{ esxi_cluster }}"
     name: "{{ esxi_guest_name }}"
     folder: ""
     state: poweredon
